@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-dark {
+    background-color: #ffffff !important;
+}
+#logo {
+           width: 40px;
+            height: 40px;
+            background: url("imagenes/iconomaletin.png");
+            font-size: 0;
+            position: absolute;
+            top: 8px;
+            z-index: 1031
+        }
+        header{
+            position: relative;
+        }
+        .active {
+            background: #d85a4e;
+        }
+        .active a {
+            color: grey !important;
+        }
+		.navbar-dark .navbar-nav .nav-link {
+    color: rgb(100, 110, 141);
+		}
+		.active a {
+		color: white !important;
+		}
+		.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #d75c4c;
+    border: 1px solid #151414fa;
+    border-radius: 0.25rem;
+}
+.row {
+    margin: auto;
+}
+		img{
+			
+			margin:auto;
+		}
+#galeria{
+	
+	margin:auto;
+	width:100%;
+}
+#redessociales ul{
+display: contents;
+}
+#redessociales {
+display: flex;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(100, 110, 141);
+}
+#bg-facebook {
+    width: 64px;
+    height: 64px;
+    font-size: 0;
+    background: url('imagenes/css_sprites.png') -10px -10px;
+    margin: auto;
+}
+
+#bg-twitter {
+    width: 64px;
+    height: 64px;
+    font-size: 0;
+    background: url('imagenes/css_sprites.png') 158px -94px;
+    margin: auto;
+}
+
+#bg-youtube {
+    width: 64px;
+    height: 64px;
+    font-size: 0;
+    margin: auto;
+    background: url('imagenes/css_sprites.png') 74px -178px;
+}
+h2{
+	
+	margin-top: 2em;
+	text-align:center;
+	
+}
+
+
+figure{
+text-align: center;
+    margin: 3em 0 1rem;}
+
+footer{
+text-align:center;
+color:black;
+}
